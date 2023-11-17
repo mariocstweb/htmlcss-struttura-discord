@@ -8,3 +8,25 @@
 body {
   font-family: sans-serif;
 }
+
+/* Nav Header Section */
+
+.nav-container {
+  min-height: 80px;
+  background-color: #add8e6;
+}
+
+.header-container {
+  background-color: #00008b;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+
+.main-header {
+  background-color: #ee82ee;
+  min-width: 300px;
+  min-height: 400px;
+  margin: 50px 500px;
+}
