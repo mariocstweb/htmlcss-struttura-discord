@@ -81,12 +81,22 @@ body {
 
 /* End */
 
+/* Row Colors */
+
 .bgcolor-w {
   background-color: #fff;
 }
 
 .bgcolor-g {
   background-color: #d3d3d3;
+}
+
+.bgcolor-p {
+  background-color: #f08080;
+}
+
+.bgcolor-lg {
+  background-color: #20b2aa;
 }
 
 .conteiner-main {
@@ -128,4 +138,86 @@ body {
   border: 3px dotted black;
   height: 1000px;
   width: 1200px;
+}
+
+/* Top-Footer */
+.top-footer {
+  background-color: #23272a;
+  min-height: 500px;
+  flex-basis: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.social-row {
+  border: 3px dotted black;
+  height: 470px;
+  width: 400px;
+}
+.product-row {
+  border: 3px dotted black;
+  height: 470px;
+  width: 200px;
+}
+.company-row {
+  border: 3px dotted black;
+  height: 470px;
+  width: 200px;
+}
+.resources-row {
+  border: 3px dotted black;
+  height: 470px;
+  width: 200px;
+}
+.name-row {
+  border: 3px dotted black;
+  height: 470px;
+  width: 200px;
+}
+
+/* Bottom-Footer */
+
+.bottom-footer {
+  background-color: #23272a;
+  min-height: 100px;
+  /* flex-basis: auto; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container-btn-footer {
+  /* border: 3px dotted black; */
+  background-color: #7fffd4;
+  height: 70px;
+  width: 1200px;
+  margin-bottom: 0;
+  /* -------------------- */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mini-logo {
+  border: 3px dotted black;
+  height: 25px;
+  width: 50px;
+  background-color: #ffb6c1;
+}
+
+.mini-btn {
+  border: 3px dotted black;
+  height: 25px;
+  width: 50px;
+  background-color: #ffb6c1;
+}
+
+.top-footer {
+  margin-bottom: 2px;
+}
+
+.bottom-footer {
+  margin-bottom: 2px;
 }
