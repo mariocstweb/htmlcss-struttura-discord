@@ -20,14 +20,15 @@ body {
 }
 
 .nav-container {
+  background-color: #add8e6;
+  min-height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 80px;
-  width: 80px;
+  align-items: center;
 }
 
-.logo {
+/* .logo {
   height: 35px;
   width: 35px;
   flex-basis: 17%;
@@ -42,7 +43,7 @@ body {
   flex-basis: 66%;
   background-color: #daa520;
   border: 3px dotted black;
-  /* flex-grow: 1; */
+  flex-grow: 1;
   align-self: center;
 }
 
@@ -53,8 +54,7 @@ body {
   background-color: #daa520;
   border: 3px dotted black;
   align-self: center;
-}
-
+} */
 .header-container {
   background-color: #00008b;
   min-height: 400px;
